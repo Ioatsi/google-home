@@ -1,0 +1,17 @@
+body{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#logo{
+    justify-content:center;
+}
+.searchbox{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    flex: 100%;
+}
+.searchbox:hover{
+    box-shadow: 2px 5px 2px #888888;
+}
